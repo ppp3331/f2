@@ -52,7 +52,7 @@ setInterval(function(){
         score=0;
         document.getElementById("score").innerHTML=score;},15);
         jumping=true;
-        document.getElementById("p").innerHTML="Click to Start!";
+        document.getElementById("p").innerHTML="Press any key to start!";
         
     }
 }},10);
