@@ -7,13 +7,13 @@ var gameend=true;
 var score=0;
 if (gamestart==false)
 {
-    document.addEventListener("click",()=> {
+    document.addEventListener("keydown",()=> {
     document.getElementById("p").innerHTML="";
     gamestart=true;
     gameend=false;
 });
 }
-document.addEventListener("click", jump);
+document.addEventListener("keydown", jump);
 up.addEventListener('animationiteration', ()=> {
     let random= ((Math.random()*300)+20);
     let diff = 340-random;
